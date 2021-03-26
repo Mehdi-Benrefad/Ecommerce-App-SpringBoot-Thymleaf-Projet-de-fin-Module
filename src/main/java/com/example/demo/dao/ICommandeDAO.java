@@ -14,6 +14,6 @@ public interface ICommandeDAO {
 	
 	public int ValiderCommande(int idPanier, User c,boolean e,String local);
 	
-	public void ModifierCommande(int id,String local);
+	public void ModifierCommande(int id,String local); 
 	
 }
